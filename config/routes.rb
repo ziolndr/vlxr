@@ -1,5 +1,6 @@
 Vlxr::Application.routes.draw do
 	root 'landingpage#index'
+  match 'subscribe/subscribe' => 'landingpage#index'
 	#post 'subscribe/subscribe' => 'subscribe#subscribe'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
