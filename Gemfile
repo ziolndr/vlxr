@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'mailchimp-api'
 
+gem 'mandrill-api'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

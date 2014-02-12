@@ -53,6 +53,9 @@ GEM
     mailchimp-api (2.0.4)
       excon (>= 0.16.0)
       json (>= 1.7.7)
+    mandrill-api (1.0.49)
+      excon (>= 0.16.0, < 1.0)
+      json (>= 1.7.7, < 2.0)
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.4)
@@ -122,6 +125,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   mailchimp-api
+  mandrill-api
   pg
   rails (= 4.0.2)
   rails_12factor
