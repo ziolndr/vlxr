@@ -9,3 +9,4 @@ class NotificationMailer < ActionMailer::Base
 				:subject => "Hi, thanks for signing up",
 				:unsub_link => unsub_email_link(@subscriber.email_token))
 	end
+end
