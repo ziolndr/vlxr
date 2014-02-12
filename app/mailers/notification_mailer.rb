@@ -6,6 +6,7 @@ class NotificationMailer < ActionMailer::Base
 		@subscriber = subscriber
 
 		mail(:to => subscriber.email, 
-			:subject => "Hi, thanks for signing up.", 
+			:subject => "Hi, thanks for signing up",
+			:unsub_link => unsub_email_link(@subscriber.email_token))
 	end
 end
