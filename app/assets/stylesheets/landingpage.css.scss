@@ -11,11 +11,10 @@ body {
 }
 
 body{
-	background-size: 1300px 750px;
+	background-size: 1300px 1400px;
 	background-repeat: no-repeat;
 	background-image: url('bg.jpg');
-	background-position: -20px -425px;
-	background-color: rgb(24, 168, 255);
+	background-position: -50px -500px;
 	overflow:hidden;
 }
    
@@ -29,20 +28,19 @@ body{
 }
 #wrapper{
   width:400px;
-  margin-left: 100px;
-  margin-top: 25px;
+  margin-left: 390px;
+  margin-top: 350px;
 }
 
 input[type=text]{
 	border:none;
 	border-radius:0px 0px 0px 0px;
-	background: rgb(17,122,172);
-	width:250px;
+	background: rgb(0, 118, 255);
+	width:260px;
 	height:40px;
 	padding:10px;
 	font-size:1.0em;
 	font-family: Raleway;
-	margin-left: -200px;
 	color: white;
 }
 
@@ -60,7 +58,7 @@ button{
 	height:60px;
 	text-indent:-20000px;
 	position:absolute;
-	background: rgb(11,78,112);
+	background: rgb(0, 162, 255);
 	outline:none;
 
 }
@@ -77,12 +75,12 @@ div.subscribe{
 }
 
 #response{
-	color:white;
+	color: rgb(48, 48, 49);
 	font-family: Raleway;
 	font-weight: 250px;
 	font-size: 15px;
-	margin-top: 5px;
-	margin-left: -80px;
+	margin-top: -280px;
+	text-align: center;
 }
 
 div.lift-off{
@@ -100,22 +98,20 @@ button:hover{
 }
 
 h1{
-	font-family: biko;
-	font-size: 40px;
+	font-family: multicolore;
+	font-size: 30px;
 	margin-top: 140px;
 	color: #080E12;
 	text-align: center;
 }
 
 h2{
-	font-family: 'Raleway';
-	font-weight: 400;
-	font-size: 120px;
-	margin-top: 65px;
-	color: white;
-	margin-left: -240px;
+	font-family: Raleway;
+	font-weight: 500;
+	font-size: 40px;
+	margin-top: 0px;
+	color: black;
 	text-align: center;
-	position: absolute;
 }
 
 h2 span{
@@ -174,10 +170,10 @@ logo{
 }
 
 footer{
-	font-family: biko;
+	font-family: multicolore;
 	height: 45px;
 	bottom: 0;
-	color: white;
-	margin-left: -483px;
-	margin-top: 300px;
+	color: auto;
+	margin-left: 525px;
+	margin-top: 250px;
 }

@@ -1,20 +1,19 @@
-<%= favicon_link_tag 'favicon.ico' %>
-<div id="logo"</div>
+<h1>vlxr</h1>
 <br>
 <br>
 <br>
 <br>
-<h2><span>CUSTOMIZE YOUR HEALTH.</span></h2>
-<h3>We make it fun and easy to create super healthy vitamins.</h3>
-	<center>
-		<footer>
-			©2014 VLXR.CO | Email us at hivlxr@vlxr.co
-		</footer>
-	</center>
-	<h4>Signup to be invited for beta!</h4>
+<h2>customize your vitamins.</h2>
+
+
+
+	<h4></h4>
 <div id = "wrapper">
 <%= form_tag('/subscribe/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
-	<%= email_field(:email, :address, {id: "email", type: "text", placeholder: "invite@me.com"}) %>
+	<%= email_field(:email, :address, {id: "email", type: "text", placeholder: "Enter your email for an early invite."}) %>
 		<button><div class="subscribe"></button></div>
 		<% end %>
+		<footer>
+			© 2014 VLXR
+		</footer>
 		<div id="response"></div>
