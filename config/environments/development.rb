@@ -1,6 +1,4 @@
 Vlxr::Application.configure do
-
-  ActionMailer::Base.default_url_options[:host] = "0.0.0.0:3000"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

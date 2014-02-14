@@ -1,7 +1,4 @@
 Vlxr::Application.configure do
-
-    ActionMailer::Base.default_url_options[:host] = "www.vlxr.co"
-
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -17,6 +14,7 @@ Vlxr::Application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+  config.action_mailer.default_url_options = { :host => 'www.vlxr.co' }
   config.action_mailer.delivery_method = :mandrill_delivery
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
