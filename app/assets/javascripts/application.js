@@ -19,7 +19,6 @@ $(document).ready(function(){
 
 	$('form#subscribe')
 		.bind("ajax:beforeSend", function(evt, xhr, settings){
-			xhr.setRequestHeader("Accept", "text/javascript")
 			var $divResponse = $('div#response');
 
 			$divResponse.data( 'origText', $divResponse.text() );
