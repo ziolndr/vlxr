@@ -35,6 +35,11 @@ ruby "1.9.3"
 
 group :production do
 	gem 'rails_12factor'
+	gem 'jquery-rails'	
+	gem 'turbolinks'
+	gem 'jbuilder', '~> 1.2'
+	gem 'uglifier', '>= 1.3.0'
+
 end
 
 group :doc do

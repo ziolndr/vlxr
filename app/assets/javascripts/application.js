@@ -14,15 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-jQuery.ajaxSetup({ 
-  'beforeSend': function(xhr) {xhr.setRequestHeader("Accept", "text/javascript")} 
-})
 
 $(document).ready(function(){
 
 	$('form#subscribe')
 		.bind("ajax:beforeSend", function(evt, xhr, settings){
+			xhr.setRequestHeader("Accept", "text/javascript")
 			var $divResponse = $('div#response');
+
 			$divResponse.data( 'origText', $divResponse.text() );
 		})
 
