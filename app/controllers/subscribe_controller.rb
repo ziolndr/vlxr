@@ -1,8 +1,5 @@
 class SubscribeController < ApplicationController
 
-	def index
-  end
- 
   def subscribe
      
     email = params[:email][:address]
@@ -13,7 +10,7 @@ class SubscribeController < ApplicationController
        
         @mc.lists.subscribe(@list_id, {'email' => email})
          
-        respond_to do |format|  
+        respond_to do |format| 
           format.json{render :json => {:message => "Success! Check your email to confirm sign up."}}
         end
        

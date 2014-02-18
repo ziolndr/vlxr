@@ -9,7 +9,7 @@
 
 	<h4></h4>
 <div id = "wrapper">
-<%= form_tag('/subscribe/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
+<%= form_tag('/subscribe/subscribe', method: "post", id: "subscribe", remote: "true",format:"js") do -%>
 	<%= email_field(:email, :address, {id: "email", type: "text", placeholder: "Enter your email for an early invite."}) %>
 		<button><div class="subscribe"></button></div>
 		<% end %>
