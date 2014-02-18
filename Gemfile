@@ -40,7 +40,6 @@ group :production do
 	gem 'turbolinks'
 	gem 'jbuilder', '~> 1.2'
 	gem 'uglifier', '>= 1.3.0'
-
 end
 
 group :doc do
