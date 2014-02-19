@@ -1,5 +1,5 @@
 class NotificationMailer < ActionMailer::Base
-	default from: "hivlxr@vlxr.co"
+	default from: "hi@vlxr.co"
 
 	def subscription_notification(subscriber)
 
